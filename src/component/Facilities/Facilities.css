@@ -1,0 +1,116 @@
+.facilities-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.listing-title-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.redf38marcellus {
+    font-size: 38px;
+    color: #b01726;
+    font-weight: bold;
+}
+
+.svv-btn {
+    background: #e6e6e6;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 10px; /* Added space between buttons */
+}
+
+.svv-redbtn {
+    background: #b01726;
+    color: white;
+}
+
+.svvlisting-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.svvlisting-filter-col {
+    width: 25%;
+    padding-right: 20px;
+}
+
+.svvlisting-filtercontent-col {
+    width: 75%;
+}
+
+.svv-filter {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.formrow {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formgroup label {
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2px;
+}
+
+.select2Input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 60px; /* Reduced height */
+}
+
+.svv-filter-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.facilitieslists {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.facility-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.facility-item img {
+    width: 300px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    border-radius: 8px;
+}
+
+.facility-item h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.facility-item p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 14px;
+}

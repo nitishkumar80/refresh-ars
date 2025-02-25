@@ -1,0 +1,416 @@
+.sportheader {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mainheader {
+    width: 100%;
+  }
+
+
+
+  a{
+    text-decoration: none;
+  }
+  
+  .whiteheader {
+    background-color: #ffffff;
+    padding: 10px 20px;
+  }
+  
+  .mainheader-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .mainheader-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .SA-logo img {
+    height: 60px;
+  }
+  
+  .mainheader-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .somaiyaedulink {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .somaiyaedulink img {
+    height: 20px;
+  }
+  
+  .darkf16firamd {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .toplinks nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .toplinks nav ul li {
+    padding: 0 10px;
+  }
+  
+  .toplinks nav ul li.leftline {
+    border-left: 1px solid #ccc;
+  }
+  
+  .darkf12firamd {
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  .trustlogo img {
+    height: 40px;
+  }
+  
+  .headermenuToggleBtn {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .hamberger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 4px 0;
+  }
+  
+  .redheader {
+    background-color: #b71c1c;
+    padding: 10px 20px;
+  }
+  
+  .redheader-inner {
+    width: 100%;
+  }
+  
+  .redheader-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .redheader-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mainmenu nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mainmenu nav ul li {
+    position: relative;
+  }
+  
+  .mainmenu nav ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+ #admisson  ul li a {
+    color: #020202;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  #admisson   ul li a:hover {
+    color: #fbc02d;
+  }
+
+
+  .mainmenu nav ul li a:hover {
+    color: #fbc02d;
+  }
+  
+  .samenu-dropdown,
+  .samegamenu-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .samenu-dropdown-inner,
+  .megamenu-dropdown-inner {
+    padding: 20px;
+  }
+  
+  .samenulist ul,
+  .megamenu-dropdown-collist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .samenulist ul li,
+  .megamenu-dropdown-collist ul li {
+    margin-bottom: 10px;
+  }
+  
+  .samenulist ul li a,
+  .megamenu-dropdown-collist ul li a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .samenulist ul li a:hover,
+  .megamenu-dropdown-collist ul li a:hover {
+    color: #b71c1c;
+  }
+  
+  .redheader-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mainmenu-btns {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .mmbtn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .mmbtn.yellow-mmbtn {
+    background-color: #fbc02d;
+    color: #000000;
+  }
+  
+  .mmbtn.blue-mmbtn {
+    background-color: #1565c0;
+    color: #ffffff;
+  }
+  
+  .mmbtn-dropdown {
+    position: relative;
+  }
+  
+  .mmbtn-ddlist {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+  }
+  
+  .mmbtn-ddlist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mmbtn-ddlist ul li {
+    padding: 10px;
+  }
+  
+  .mmbtn-ddlist ul li a {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  
+  .mmbtn-ddlist ul li a:hover {
+    color: #b71c1c;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .toplinks,
+    .trustlogo,
+    .redheader-right {
+      display: none;
+    }
+  
+    .headermenuToggleBtn {
+      display: block;
+    }
+  
+    .mainmenu nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .samenu-dropdown,
+    .samegamenu-dropdown {
+      position: static;
+      box-shadow: none;
+    }
+  
+    .mmbtn-ddlist {
+      position: static;
+      box-shadow: none;
+    }
+  }
+  
+
+
+  /* Styling for the Admission dropdown */
+.sa-megamenu {
+    position: relative;
+  }
+  
+  .samegamenu-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    width: 500px; /* Adjust width as needed */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .sa-megamenu:hover .samegamenu-dropdown {
+    display: block;
+  }
+  
+  .megamenu-dropdown-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Adds some space between columns */
+  }
+  
+  .megamenu-dropdown-collist {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .academics-col {
+    flex: 1;
+  }
+  
+  .mm-col h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .mm-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mm-col li {
+    margin-bottom: 8px;
+  }
+  
+  .mm-col a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .mm-col a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+  /* Mobile Navbar Styles */
+@media (max-width: 768px) {
+    .toplinks,
+    .trustlogo,
+    .redheader-right {
+      display: none; /* Hide these elements on mobile */
+    }
+  
+    .headermenuToggleBtn {
+      display: block; /* Show the toggle button on mobile */
+    }
+  
+    .mainmenu nav ul {
+      flex-direction: column; /* Stack menu items vertically */
+      gap: 10px; /* Add space between menu items */
+      background-color: #ffffff; /* White background for mobile menu */
+      padding: 10px; /* Add padding for better spacing */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+    }
+  
+    .mainmenu nav ul li {
+      padding: 10px; /* Add padding to each menu item */
+    }
+  
+    .mainmenu nav ul li a {
+      color: #333; /* Dark text for visibility */
+      font-size: 16px;
+      font-weight: 500;
+    }
+  
+    .mainmenu nav ul li a:hover {
+      color: #b71c1c; /* Red color on hover */
+    }
+  
+    .samenu-dropdown,
+    .samegamenu-dropdown {
+      position: static; /* Dropdowns should be static on mobile */
+      box-shadow: none; /* Remove shadow for mobile dropdowns */
+    }
+  
+    .mmbtn-ddlist {
+      position: static; /* Dropdown lists should be static on mobile */
+      box-shadow: none; /* Remove shadow for mobile dropdown lists */
+    }
+  
+    /* Mobile menu toggle button */
+    .hamberger {
+      display: flex;
+      flex-direction: column;
+      gap: 4px; /* Space between hamburger lines */
+    }
+  
+    .hamberger span {
+      width: 25px;
+      height: 3px;
+      background-color: #333; /* Dark color for hamburger lines */
+    }
+  
+    /* Mobile menu open state */
+    .mainmenu.open {
+      display: block; /* Show the menu when open */
+    }
+  
+    .mainmenu {
+      display: none; /* Hide the menu by default on mobile */
+    }
+  }
